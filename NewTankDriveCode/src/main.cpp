@@ -261,7 +261,7 @@ void pre_auton(void) {
 // Initializing Robot Configuration. DO NOT REMOVE!
   vexcodeInit();
   autonSelector();
-  Expansion.set(false);
+  Expansion.set(true);
   // All activities that occur before the competition starts
   // Example: clearing encoders, setting servo positions, ...
 }
@@ -602,10 +602,10 @@ void usercontrol(void) {
     //so we will be using simple detection for this
     
     if(Controller1.ButtonX.pressing() && Controller1.ButtonY.pressing()){
-      Expansion.set(true);
+      Expansion.set(false);
     }
     else if(Controller1.ButtonB.pressing()){
-      Expansion.set(false);
+      Expansion.set(true);
     }
     
     

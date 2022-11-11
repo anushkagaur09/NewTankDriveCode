@@ -12,10 +12,10 @@
 // [Name]               [Type]        [Port(s)]
 // Controller1          controller                    
 // rightFront           motor         5               
-// leftFront            motor         3               
-// leftBack             motor         8               
-// rightBack            motor         12              
-// Intake               motor         9               
+// leftFront            motor         8              
+// leftBack             motor         10               
+// rightBack            motor         9              
+// Intake               motor         11               
 // Expansion            digital_out   A               
 // flywheel             motor         13              
 // flywheel2            motor         14              
